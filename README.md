@@ -4,6 +4,8 @@ National park visitor numbers
 
 Uses https://vue-chartjs.org/guide
 
+![application chart screenshot](screenshots/parkschart.png)
+
 ### Setup, dependencies 
 
 Create express project, create Vue project
