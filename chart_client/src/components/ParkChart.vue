@@ -2,17 +2,21 @@
 
 <script>
 
-import { Bar } from 'vue-chartjs'
+// resources: https://vue-chartjs.org/guide/#updating-charts
+
+import { Bar, mixins } from 'vue-chartjs'
+const { reactiveProp } = mixins 
 
 export default {
   extends: Bar, 
+  mixins: [ reactiveProp ], 
   props: { 
-    chartdata: Object, 
+    //chartdata: Object,   // provided by the mixin. Parent component needs to set chartData prop. 
     options: Object 
   }, 
   mounted() {
     console.log(this.chartdata)
-    this.renderChart(this.chartdata, this.options)
+    this.renderChart(this.chartData, this.options)
   }
 }
 </script>
