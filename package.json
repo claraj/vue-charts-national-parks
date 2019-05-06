@@ -1,0 +1,18 @@
+{
+  "name": "charts_vue_express",
+  "version": "1.0.0",
+  "description": "hello charts and vue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sequelize": "^5.8.5"
+  },
+  "devDependencies": {
+    "sqlite3": "^4.0.6"
+  }
+}
