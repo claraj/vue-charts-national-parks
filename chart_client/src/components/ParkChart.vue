@@ -9,9 +9,9 @@ const { reactiveProp } = mixins
 
 export default {
   extends: Bar, 
-  mixins: [ reactiveProp ], 
+  mixins: [ reactiveProp ],   // For automatically updating chart if chartData changes 
   props: { 
-    //chartdata: Object,   // provided by the mixin. Parent component needs to set chartData prop. 
+    // chartdata: Object,   // provided by the mixin. Parent component needs to set chartData prop. 
     options: Object 
   }, 
   mounted() {
