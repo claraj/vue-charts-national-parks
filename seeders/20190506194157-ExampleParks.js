@@ -4,16 +4,16 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
 
     let exampleParks = [
-      {name: 'Great Smoky Mountains National Park', annualVisitors: 11421200},
-      {name:'Grand Canyon National Park', annualVisitors: 6380495},
-      {name: 'Rocky Mountain National Park', annualVisitors:4590493},
-      {name:'Zion National Park', annualVisitors:	4320033},
-      {name: 'Yellowstone National Park', annualVisitors:	4115000},
-      {name: 'Yosemite National Park', annualVisitors: 4009436},
-      {name: 'Acadia National Park', annualVisitors: 3537575},
-      {name: 'Grand Teton National Park', annualVisitors: 3491151},
-      {name: 'Olympic National Park', annualVisitors: 3104455},
-      {name: 'Glacier National Park', annualVisitors: 2965309}
+      {name: 'Great Smoky Mountains', annualVisitors: 11421200},
+      {name:'Grand Canyon', annualVisitors: 6380495},
+      {name: 'Rocky Mountain', annualVisitors:4590493},
+      {name: 'Zion', annualVisitors:	4320033},
+      {name: 'Yellowstone', annualVisitors:	4115000},
+      {name: 'Yosemite', annualVisitors: 4009436},
+      {name: 'Acadia', annualVisitors: 3537575},
+      {name: 'Grand Teton', annualVisitors: 3491151},
+      {name: 'Olympic', annualVisitors: 3104455},
+      {name: 'Glacier', annualVisitors: 2965309}
     ]
 
     var parksDates = exampleParks.map(function(s) { 
