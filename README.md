@@ -2,6 +2,8 @@
 
 National park visitor numbers
 
+Uses https://vue-chartjs.org/guide
+
 ### Setup, dependencies 
 
 Create express project, create Vue project
