@@ -5,7 +5,7 @@ var router = express.Router()
 
 // Get all the parks 
 router.get('/parks', function(req, res, next){
-    NationalPark.findAll( {order: ['annualVisitors']})
+    NationalPark.findAll( {order: [ ['annualVisitors', 'DESC'] ] })  // What a lot of brackets. 
     .then( parks => {
         return res.json(parks)
     })
